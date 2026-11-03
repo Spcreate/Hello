@@ -88,7 +88,9 @@
     .filter-button { flex: 0 0 auto; padding: 8px 14px; border: 1px solid var(--border); border-radius: 999px; color: var(--muted); background: white; font-size: 0.88rem; font-weight: 650; cursor: pointer; }
     .filter-button:hover, .filter-button.active { border-color: var(--purple); color: white; background: var(--purple); }
     .tools-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 17px; margin-top: 9px; }
-    .tool-card { display: flex; min-height: 232px; flex-direction: column; padding: 21px; border: 1px solid var(--border); border-radius: 18px; background: var(--surface); box-shadow: 0 5px 18px rgba(34, 30, 78, 0.025); transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s; }
+    .tool-card { display: flex; min-height: 232px; flex-direction: column; padding: 21px; border: 1px solid var(--border); border-radius: 18px; background: var(--surface); box-shadow: 0 5px 18px rgba(34, 30, 78, 0.025); transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s; } 
+    .tool-card[hidden] {
+  display: none;  }
     .tool-card:hover { transform: translateY(-4px); border-color: #d8d2ff; box-shadow: var(--shadow); }
     .tool-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
     .tool-icon { display: grid; width: 47px; height: 47px; place-items: center; border-radius: 14px; background: #f0edff; font-size: 1.45rem; }
