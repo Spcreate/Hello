@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://spcreate.github.io/Hello/sitemap.xml
